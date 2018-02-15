@@ -21,10 +21,18 @@ html, body {
   /*find the right yt video code*/
 }
 
-.space .mountains .jungle .race-track {
+.space .mountains .jungle .race-track { /*image background*/
   width: 100%;
+  height: ?;
+  margin: 0%;
 }
 
+.space-description-box .mountains-description-box  .jungle-description-box .race-track-description-box { /*textbox background*/
+  width: 40%;
+  height: 500px;
+  opacity: 20%;
+  background-color: #4C93B6;
+}
 
 
 
