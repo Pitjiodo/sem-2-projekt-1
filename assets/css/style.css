@@ -10,9 +10,9 @@ html, body {
     position: absolute;
 }
 .top-logo2 {
-    margin: 80.6px 67px 0 0;
     position: absolute;
-    right: 0;
+    right: 67px;
+    top: 80.6px;
 }
 
 h1 {
