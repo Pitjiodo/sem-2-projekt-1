@@ -1,23 +1,53 @@
 html, body {
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top-logo {
+    width: 350px;
+    height: 107.38px;
+    margin: 63.6px 0 0 67px;
+    position: absolute;
+}
+.top-logo2 {
+    margin: 80.6px 67px 0 0;
+    position: absolute;
+    right: 0;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 267px;
+    left: 67px;
+    font-size: 60px;
+    font-weight: 700;
 }
 
 .intro {
-  width: 100%;
-  height: 500px;
-  background-color: #7CA5FE;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
 }
 
 .intro-description {
-  37.5%;
-  margin: 20px 2.5% 20px 5%;
-  float: left;
+    text-align: justify;
+}
+
+.textbox-top {
+    margin: 438px 1131px auto 67px;
+    position: absolute;
+    max-width: 50px;
+    max-height: 404px;
 }
 
 .intro-video {
-  47.5%;
-  20px 5% 29px 2.5;
-  float: right;
+    width: 1000px;
+    height: 563px;
+    position: absolute;
+    left: 67px;
+    top: 259px;
   /*find the right yt video code*/
 }
 
