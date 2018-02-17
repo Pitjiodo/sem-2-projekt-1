@@ -41,6 +41,7 @@ h1 {
 
 .intro-description {
     text-align: justify;
+    font-size: 46px;
 }
 
 .textbox-top {
@@ -85,15 +86,31 @@ h1 {
         top: 184.3px;
     }
 
-    .h1 {
+    h1 {
         margin: 0;
         position: absolute;
         top: 190px;
         left: 47.7px;
-        font-size: 60px;
+        font-size: 64px;
         font-weight: 700;
     }
     
+    .line {
+        width: 418.34px;
+        left: 50.16px;
+        top: 291.34px;
+        position: absolute;
+    }
+    
+    .textbox-top {
+        margin: 311.6px 804.7px auto 47.7px;
+        position: absolute;
+        max-width: 513.67px;
+        max-height: 404px;
+    }
+    .intro-description {
+        font-size: 32px;
+    }
 }
 
 
