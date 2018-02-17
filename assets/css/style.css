@@ -16,10 +16,8 @@ html, body {
 }
 
 h1 {
-    margin: 0;
+    margin: 267px 1189px auto 67px;
     position: absolute;
-    top: 267px;
-    left: 67px;
     font-size: 60px;
     font-weight: 700;
 }
@@ -154,6 +152,14 @@ h1 {
     }
     .intro-description {
         font-size: 32px;
+    }
+    
+    .video-tekst {
+        margin: 0;
+        font-weight: 700;
+        font-size: 42px;
+        right: 207.5px;
+        top: 332.3px;
     }
 }
 
