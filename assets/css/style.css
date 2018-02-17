@@ -47,7 +47,7 @@ h1 {
 .textbox-top {
     margin: 438px 1131px auto 67px;
     position: absolute;
-    max-width: 50px;
+    max-width: 722px;
     max-height: 404px;
 }
 
@@ -57,7 +57,20 @@ h1 {
     position: absolute;
     right: 67px;
     top: 259px;
+    opacity: 0.3;
+    transition: .5s ease;
   /*find the right yt video code*/
+}
+.intro-video-overlay {
+    width: 1000px;
+    height: 563px;
+    position: absolute;
+    right: 67px;
+    top: 259px;
+    background-color: #000;
+}
+.intro-video:hover {
+    opacity: 1;
 }
 
 /*----------- Responsive -----------*/
@@ -84,6 +97,20 @@ h1 {
         position: absolute;
         right: 47.7px;
         top: 184.3px;
+        opacity: 0.3;
+        transition: .5s ease;
+    }
+
+    .intro-video-overlay {
+        width: 711.46px;
+        height: 400.55px;
+        position: absolute;
+        right: 47.7px;
+        top: 184.3px;
+        background-color: #000;
+    }
+    .intro-video:hover {
+        opacity: 1;
     }
 
     h1 {
