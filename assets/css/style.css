@@ -24,6 +24,14 @@ h1 {
     font-weight: 700;
 }
 
+.line {
+    border-top: 7px solid #C50000;
+    width: 588px;
+    left: 70.5px;
+    top: 409.5px;
+    position: absolute;
+}
+
 .intro {
     position: absolute;
     width: 100%;
@@ -46,10 +54,50 @@ h1 {
     width: 1000px;
     height: 563px;
     position: absolute;
-    left: 67px;
+    right: 67px;
     top: 259px;
   /*find the right yt video code*/
 }
+
+/*----------- Responsive -----------*/
+@media only screen and (max-width: 1366px) {
+
+    .top-logo {
+        width: auto;
+        height: 84.16px;
+        margin: 45.3px 0 0 47.7px;
+        position: absolute;
+    }
+    
+    .top-logo2 {
+        height: 84.16px;
+        width: auto;
+        position: absolute;
+        right: 47.6px;
+        top: 45.3px;
+    }
+    
+    .intro-video {
+        width: 711.46px;
+        height: 400.55px;
+        position: absolute;
+        right: 47.7px;
+        top: 184.3px;
+    }
+
+    .h1 {
+        margin: 0;
+        position: absolute;
+        top: 190px;
+        left: 47.7px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    
+}
+
+
+/*----------- UNDER TOP -----------*/
 
 .space .mountains .jungle .race-track { /*image background*/
   width: 100%;
