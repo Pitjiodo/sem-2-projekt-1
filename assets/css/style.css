@@ -73,6 +73,23 @@ h1 {
     opacity: 1;
 }
 
+.video-tekst {
+    margin: 0;
+    font-weight: 700;
+    font-size: 64px;
+    right: 283px;
+    top: 467px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    display: block;
+    transition: .5s ease;
+}
+
+.intro-video:hover ~ .video-tekst {
+    display: none;
+}
+
 /*----------- Responsive -----------*/
 @media only screen and (max-width: 1366px) {
 
