@@ -97,7 +97,7 @@ h1 {
         margin: 45.3px 0 0 47.7px;
         position: absolute;
     }
-    
+
     .top-logo2 {
         height: 84.16px;
         width: auto;
@@ -105,7 +105,7 @@ h1 {
         right: 47.6px;
         top: 45.3px;
     }
-    
+
     .intro-video {
         width: 711.46px;
         height: 400.55px;
@@ -136,14 +136,14 @@ h1 {
         font-size: 64px;
         font-weight: 700;
     }
-    
+
     .line {
         width: 418.34px;
         left: 50.16px;
         top: 291.34px;
         position: absolute;
     }
-    
+
     .textbox-top {
         margin: 311.6px 804.7px auto 47.7px;
         position: absolute;
@@ -153,7 +153,7 @@ h1 {
     .intro-description {
         font-size: 32px;
     }
-    
+
     .video-tekst {
         margin: 0;
         font-weight: 700;
@@ -180,9 +180,19 @@ h1 {
 }
 
 
-
-.footer {
-  width: 100%;
-  background-color: #000000;
-  margin: 2% 0% 0%;
-}
+footer {
+      position: absolute;
+      height: 5em;
+      line-height: 5em;
+      background: #000000;
+      overflow: hidden;
+      margin: 100% 0% 0%;
+      width:100%;
+      text-align: left;
+    }
+    .fa:hover {
+      opacity: 0.7;
+      }
+    .fa {
+      margin: 10px;
+    }
