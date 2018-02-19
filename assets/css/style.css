@@ -1,3 +1,4 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 html, body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -179,20 +180,85 @@ h1 {
   background-color: #4C93B6;
 }
 
-
+/*----------Footer------------*/
 footer {
       position: absolute;
       height: 5em;
       line-height: 5em;
-      background: #000000;
+      background: #322f30;
       overflow: hidden;
       margin: 100% 0% 0%;
       width:100%;
-      text-align: left;
+
     }
-    .fa:hover {
+.fa:hover {
       opacity: 0.7;
       }
-    .fa {
-      margin: 10px;
-    }
+
+  ul {
+      padding:0;
+      list-style: none;
+  }
+
+  .footer-social-icons {
+      width: 350px;
+      display:inline-block;
+      margin: 0 auto;
+  }
+
+  .social-icon {
+      color: #fff;
+  }
+
+  ul.social-icons {
+      margin-top: 10px;
+  }
+
+  .social-icons li {
+      vertical-align: top;
+      display: inline;
+      height: 100px;
+  }
+
+  .social-icons a {
+      color: #fff;
+  }
+
+  .fa-facebook {
+      padding:10px 14px;
+      transition: .5s;
+      background-color: #322f30;
+  }
+
+  .fa-facebook:hover {
+      background-color: #3d5b99;
+  }
+
+  .fa-instagram {
+      padding:10px 12px;
+      transition: .5s;
+      background-color: #322f30;
+  }
+
+  .fa-instagram:hover {
+      background-color: #9200B9;
+  }
+
+  .fa-youtube {
+      padding:10px 14px;
+      transition: .5s;
+      background-color: #322f30;
+  }
+
+  .fa-youtube:hover {
+      background-color: #e64a41;
+  }
+
+  .fa-linkedin {
+      padding:10px 14px;
+      transition: .5s;
+      background-color: #322f30;
+  }
+
+  .fa-linkedin:hover {
+      background-color: #0073a4;
