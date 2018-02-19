@@ -198,7 +198,7 @@ h1 {
 }
 .old_man_no_vr {
   position: absolute;
-  left: 1540px;
+  left: 1570px;
   top: 151px;
   width: 307px;
   height: 456px;
@@ -285,20 +285,48 @@ h1 {
 .mountains-description-box {
   position: absolute;
   left: 1150px;
-  top: 151px;
+  top: 91px;
+  width: 400px;
   z-index: 3;
 }
 .jungle-description-box {
   position: absolute;
   left: 68px;
-  top: 114px;
+  top: 54px;
+  width: 400px;
   z-index: 3;
 }
 .race-track-description-box {
   position: absolute;
   left: 1150px;
-  top: 132px;
+  top: 72px;
+  width: 400px;
   z-index: 3;
+}
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1px;
+  text-shadow: 3px 3px 0 #000;
+}
+.mountains-description {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 0 #000;
+}
+.jungle-description {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 0 #000;
+}
+.race-track-description {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 0 #000;
 }
 
 footer {
