@@ -382,6 +382,16 @@ footer {
     background-color: #751717;
 }
 
+.mail {
+    color: #5b5b5b;
+    position: absolute;
+    top: 8px;
+    right: 5%;
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 /*----------- Responsive -----------*/
 @media only screen and (max-width: 1366px) {
 
