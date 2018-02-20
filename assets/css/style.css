@@ -358,28 +358,30 @@ footer {
       background-color: #0073a4;
 }
 
-  .contact-info {
-      background-image: url(../images/work_with_us.png);
-      background-size:contain;
-      position: absolute;
-      top: 6px;
-      left: 45%;
-      width:235px;
-      height: 65px;
-      display:inline-block;
-      color:#ffffff;
-      font-size: 0.5em;
-      font-weight: bold;
-      text-shadow: 3px 3px 0 #000;
-      padding-top: 20px;
-      padding-left: 10px;
-      border-radius: 25px;
-}
 .contact-info-text {
-  color:#C50000;
-  font-size: 26px;
-  padding: 0 0 26px 26px;
+    position: absolute;
+    top: 15px;
+    left: 40%;
+    width: 20%;
+    height: 65px;
+    border: solid #c50000;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #c50000;
+    transition: .5s ease;
 }
+.contact-info-text p {
+    margin: 0px;
+    position: relative;
+    top: -8px;
+}
+
+.contact-info-text:hover {
+    background-color: #751717;
+}
+
 /*----------- Responsive -----------*/
 @media only screen and (max-width: 1366px) {
 
