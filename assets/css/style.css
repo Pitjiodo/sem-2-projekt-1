@@ -418,167 +418,192 @@ footer {
     
     
     .space {
-  position: absolute;
-  width: 1366px;
-  height: 120%;
-  margin-top: 768px;
-  background-image: url(../images/space.png);
-}
-.mountains{
-  position: absolute;
-  width: 1366px;
-  height: 120%;
-  margin-top: 2160px;
-  background-image: url(../images/mountains.png);
-}
+      position: absolute;
+      width: 100%;
+      height: 120%;
+      margin-top: 768px;
+      background-image: url(../images/space.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+    .mountains{
+      position: absolute;
+      width: 100%;
+      height: 120%;
+      margin-top: 1536px;
+      background-image: url(../images/mountains.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
 
-.jungle{
-  position: absolute;
-  width: 1366px;
-  height: 120%;
-  margin-top: 3240px;
-  background-image: url(../images/jungle.png);
-}
+    .jungle{
+      position: absolute;
+      width: 100%;
+      height: 120%;
+      margin-top: 2304px;
+      background-image: url(../images/jungle.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
 
-.race-track{
-  position: absolute;
-  width: 1366px;
-  height: 120%;
-  margin-top: 4320px;
-  background-image: url(../images/race_track.png);
-}
-.old_man_no_vr {
-  position: absolute;
-  left: 1570px;
-  top: 151px;
-  width: 307px;
-  height: 456px;
-  z-index: 2;
-}
-.greybg1 {
-  position: absolute;
-  left: 1100px;
-  top: 101px;
-  width: 790px;
-  height: 555px;
-  z-index: 1;
-}
-.old_man_vr {
-  position: absolute;
-  left: 229px;
-  top: 300px;
-  width: 367px;
-  height: 590px;
-}
+    .race-track{
+      position: absolute;
+      width: 100%;
+      height: 120%;
+      margin-top: 3072px;
+      background-image: url(../images/race_track.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
 
-.plant1 {
-  position: absolute;
-  left: 310px;
-  top: 442px;
-  width: 107px;
-  height: 123px;
-  z-index: 2;
-}
-.plant2 {
-  position: absolute;
-  left: 1096px;
-  top: 580px;
-  width: 282px;
-  height: 383px;
-}
-.old_lady_no_vr {
-  position: absolute;
-  left: 417px;
-  top: 94px;
-  width: 358px;
-  height: 492px;
-  z-index: 2;
-}
-.old_lady_vr {
-  position: absolute;
-  left: 1283px;
-  top: 233px;
-  width: 564px;
-  height: 776px;
-}
-.greybg2 {
-  position: absolute;
-  left: 18px;
-  top: 64px;
-  width: 790px;
-  height: 555px;
-  z-index: 1;
-}
-.old_man_wheelchair {
-  position: absolute;
-  left: 1395px;
-  top: 171px;
-  width: 492px;
-  height: 409px;
-  z-index: 2;
-}
-.old_man_car {
-  position: absolute;
-  left: 22px;
-  top: 428px;
-  width: 1074px;
-  height: 516px;
-}
-.greybg3 {
-  position: absolute;
-  left: 1100px;
-  top: 82px;
-  width: 790px;
-  height: 555px;
-  z-index: 1;
-}
+    .old_man_no_vr {
+      position: absolute;
+      left: 800px;
+      top: 151px;
+      width: 180px;
+      height: auto;
+      z-index: 2;
+    }
+    .greybg1 {
+      position: absolute;
+      left: 780px;
+      top: 101px;
+      width: 555px;
+      height: 350px;
+      z-index: 1;
+    }
+    .old_man_vr {
+      position: absolute;
+      left: 229px;
+      top: 300px;
+      width: 260px;
+      height: auto;
+    }
 
-.mountains-description-box {
-  position: absolute;
-  left: 1150px;
-  top: 91px;
-  width: 400px;
-  z-index: 3;
-}
-.jungle-description-box {
-  position: absolute;
-  left: 68px;
-  top: 54px;
-  width: 400px;
-  z-index: 3;
-}
-.race-track-description-box {
-  position: absolute;
-  left: 1150px;
-  top: 72px;
-  width: 400px;
-  z-index: 3;
-}
-h2 {
-  font-size: 50px;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 1px;
-  text-shadow: 3px 3px 0 #000;
-}
-.mountains-description {
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 3px 3px 0 #000;
-}
-.jungle-description {
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 3px 3px 0 #000;
-}
-.race-track-description {
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 3px 3px 0 #000;
-}
+    .plant1 {
+      position: absolute;
+      left: 330px;
+      top: 330px;
+      width: 50px;
+      height: auto;
+      z-index: 2;
+    }
+    .plant2 {
+      position: absolute;
+      left: 780px;
+      top: 500px;
+      width: 180px;
+      height: auto;
+    }
+    .old_lady_no_vr {
+      position: absolute;
+      left: 380px;
+      top: 150px;
+      width: 180px;
+      height: auto;
+      z-index: 2;
+    }
+    .old_lady_vr {
+      position: absolute;
+      left: 950px;
+      top: 250px;
+      width: 350px;
+      height: auto;
+    }
+    .greybg2 {
+      position: absolute;
+      left: 18px;
+      top: 64px;
+      width: 555px;
+      height: 350px;
+      z-index: 1;
+    }
+    .old_man_wheelchair {
+      position: absolute;
+      left: 1050px;
+      top: 171px;
+      width: 280px;
+      height: auto;
+      z-index: 2;
+    }
+    .old_man_car {
+      position: absolute;
+      left: 22px;
+      top: 280px;
+      width: 680px;
+      height: auto;
+    }
+    .greybg3 {
+      position: absolute;
+      left: 780px;
+      top: 82px;
+      width: 555px;
+      height: 350px;
+      z-index: 1;
+    }
+
+    .mountains-description-box {
+      position: absolute;
+      left: 990px;
+      top: 91px;
+      width: 340px;
+      z-index: 3;
+    }
+    .jungle-description-box {
+      position: absolute;
+      left: 68px;
+      top: 54px;
+      width: 400px;
+      z-index: 3;
+    }
+    .race-track-description-box {
+      position: absolute;
+      left: 790px;
+      top: 72px;
+      width: 400px;
+      z-index: 3;
+    }
+
+    h2 {
+      font-size: 50px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 1px;
+      text-shadow: 3px 3px 0 #000;
+    }
+    .mountains-description {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 3px 3px 0 #000;
+    }
+    .jungle-description {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 3px 3px 0 #000;
+    }
+    .race-track-description {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 3px 3px 0 #000;
+    }
+
+    
+    footer {
+      position: absolute;
+      height: 6em;
+      line-height: 5em;
+      background: #322f30;
+      overflow: hidden;
+      margin-top: 3800px;
+      margin-bottom: 0%;
+      margin-left: 0%;
+      margin-right: 0%;
+      width:100%;
+
+    }
 
     
 }
