@@ -40,7 +40,7 @@ h1 {
 
 .intro-description {
     text-align: justify;
-    font-size: 46px;
+    font-size: 36px;
 }
 
 .textbox-top {
@@ -340,7 +340,7 @@ footer {
   .fa-linkedin:hover {
       background-color: #0073a4;
 }
-      
+
 /*----------- Responsive -----------*/
 @media only screen and (max-width: 1366px) {
 
@@ -414,9 +414,9 @@ footer {
         right: 207.5px;
         top: 332.3px;
     }
-    
-    
-    
+
+
+
     .space {
       position: absolute;
       width: 100%;
@@ -590,7 +590,7 @@ footer {
       text-shadow: 3px 3px 0 #000;
     }
 
-    
+
     footer {
       position: absolute;
       height: 6em;
@@ -605,5 +605,5 @@ footer {
 
     }
 
-    
+
 }
