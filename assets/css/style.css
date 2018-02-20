@@ -362,13 +362,13 @@ footer {
       background-image: url(../images/work_with_us.png);
       background-size:contain;
       position: absolute;
-      top: 5px;
-      left: 1580px;
+      top: 6px;
+      left: 200px;
       width:235px;
       height: 65px;
       display:inline-block;
       color:#ffffff;
-      font-size: 30px;
+      font-size: 0.5em;
       font-weight: bold;
       text-shadow: 3px 3px 0 #000;
       padding-top: 20px;
