@@ -89,81 +89,6 @@ h1 {
     display: none;
 }
 
-/*----------- Responsive -----------*/
-@media only screen and (max-width: 1366px) {
-
-    .top-logo {
-        width: auto;
-        height: 84.16px;
-        margin: 45.3px 0 0 47.7px;
-        position: absolute;
-    }
-
-    .top-logo2 {
-        height: 84.16px;
-        width: auto;
-        position: absolute;
-        right: 47.6px;
-        top: 45.3px;
-    }
-
-    .intro-video {
-        width: 711.46px;
-        height: 400.55px;
-        position: absolute;
-        right: 47.7px;
-        top: 184.3px;
-        opacity: 0.3;
-        transition: .5s ease;
-    }
-
-    .intro-video-overlay {
-        width: 711.46px;
-        height: 400.55px;
-        position: absolute;
-        right: 47.7px;
-        top: 184.3px;
-        background-color: #000;
-    }
-    .intro-video:hover {
-        opacity: 1;
-    }
-
-    h1 {
-        margin: 0;
-        position: absolute;
-        top: 190px;
-        left: 47.7px;
-        font-size: 64px;
-        font-weight: 700;
-    }
-
-    .line {
-        width: 418.34px;
-        left: 50.16px;
-        top: 291.34px;
-        position: absolute;
-    }
-
-    .textbox-top {
-        margin: 311.6px 804.7px auto 47.7px;
-        position: absolute;
-        max-width: 513.67px;
-        max-height: 404px;
-    }
-    .intro-description {
-        font-size: 32px;
-    }
-
-    .video-tekst {
-        margin: 0;
-        font-weight: 700;
-        font-size: 42px;
-        right: 207.5px;
-        top: 332.3px;
-    }
-}
-
 
 /*----------- UNDER TOP -----------*/
 
@@ -414,3 +339,246 @@ footer {
 
   .fa-linkedin:hover {
       background-color: #0073a4;
+}
+      
+/*----------- Responsive -----------*/
+@media only screen and (max-width: 1366px) {
+
+    .top-logo {
+        width: auto;
+        height: 84.16px;
+        margin: 45.3px 0 0 47.7px;
+        position: absolute;
+    }
+
+    .top-logo2 {
+        height: 84.16px;
+        width: auto;
+        position: absolute;
+        right: 47.6px;
+        top: 45.3px;
+    }
+
+    .intro-video {
+        width: 711.46px;
+        height: 400.55px;
+        position: absolute;
+        right: 47.7px;
+        top: 184.3px;
+        opacity: 0.3;
+        transition: .5s ease;
+    }
+
+    .intro-video-overlay {
+        width: 711.46px;
+        height: 400.55px;
+        position: absolute;
+        right: 47.7px;
+        top: 184.3px;
+        background-color: #000;
+    }
+    .intro-video:hover {
+        opacity: 1;
+    }
+
+    h1 {
+        margin: 0;
+        position: absolute;
+        top: 190px;
+        left: 47.7px;
+        font-size: 64px;
+        font-weight: 700;
+    }
+
+    .line {
+        width: 418.34px;
+        left: 50.16px;
+        top: 291.34px;
+        position: absolute;
+    }
+
+    .textbox-top {
+        margin: 311.6px 804.7px auto 47.7px;
+        position: absolute;
+        max-width: 513.67px;
+        max-height: 404px;
+    }
+    .intro-description {
+        font-size: 32px;
+    }
+
+    .video-tekst {
+        margin: 0;
+        font-weight: 700;
+        font-size: 42px;
+        right: 207.5px;
+        top: 332.3px;
+    }
+    
+    
+    
+    .space {
+  position: absolute;
+  width: 1366px;
+  height: 120%;
+  margin-top: 768px;
+  background-image: url(../images/space.png);
+}
+.mountains{
+  position: absolute;
+  width: 1366px;
+  height: 120%;
+  margin-top: 2160px;
+  background-image: url(../images/mountains.png);
+}
+
+.jungle{
+  position: absolute;
+  width: 1366px;
+  height: 120%;
+  margin-top: 3240px;
+  background-image: url(../images/jungle.png);
+}
+
+.race-track{
+  position: absolute;
+  width: 1366px;
+  height: 120%;
+  margin-top: 4320px;
+  background-image: url(../images/race_track.png);
+}
+.old_man_no_vr {
+  position: absolute;
+  left: 1570px;
+  top: 151px;
+  width: 307px;
+  height: 456px;
+  z-index: 2;
+}
+.greybg1 {
+  position: absolute;
+  left: 1100px;
+  top: 101px;
+  width: 790px;
+  height: 555px;
+  z-index: 1;
+}
+.old_man_vr {
+  position: absolute;
+  left: 229px;
+  top: 300px;
+  width: 367px;
+  height: 590px;
+}
+
+.plant1 {
+  position: absolute;
+  left: 310px;
+  top: 442px;
+  width: 107px;
+  height: 123px;
+  z-index: 2;
+}
+.plant2 {
+  position: absolute;
+  left: 1096px;
+  top: 580px;
+  width: 282px;
+  height: 383px;
+}
+.old_lady_no_vr {
+  position: absolute;
+  left: 417px;
+  top: 94px;
+  width: 358px;
+  height: 492px;
+  z-index: 2;
+}
+.old_lady_vr {
+  position: absolute;
+  left: 1283px;
+  top: 233px;
+  width: 564px;
+  height: 776px;
+}
+.greybg2 {
+  position: absolute;
+  left: 18px;
+  top: 64px;
+  width: 790px;
+  height: 555px;
+  z-index: 1;
+}
+.old_man_wheelchair {
+  position: absolute;
+  left: 1395px;
+  top: 171px;
+  width: 492px;
+  height: 409px;
+  z-index: 2;
+}
+.old_man_car {
+  position: absolute;
+  left: 22px;
+  top: 428px;
+  width: 1074px;
+  height: 516px;
+}
+.greybg3 {
+  position: absolute;
+  left: 1100px;
+  top: 82px;
+  width: 790px;
+  height: 555px;
+  z-index: 1;
+}
+
+.mountains-description-box {
+  position: absolute;
+  left: 1150px;
+  top: 91px;
+  width: 400px;
+  z-index: 3;
+}
+.jungle-description-box {
+  position: absolute;
+  left: 68px;
+  top: 54px;
+  width: 400px;
+  z-index: 3;
+}
+.race-track-description-box {
+  position: absolute;
+  left: 1150px;
+  top: 72px;
+  width: 400px;
+  z-index: 3;
+}
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1px;
+  text-shadow: 3px 3px 0 #000;
+}
+.mountains-description {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 0 #000;
+}
+.jungle-description {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 0 #000;
+}
+.race-track-description {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 0 #000;
+}
+
+    
+}
