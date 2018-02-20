@@ -362,16 +362,18 @@ footer {
       background-image: url(../images/work_with_us.png);
       background-size:contain;
       position: absolute;
-      left: 1550px;
-      width:280px;
-      height: 100px;
+      top: 5px;
+      left: 1580px;
+      width:235px;
+      height: 65px;
       display:inline-block;
       color:#ffffff;
       font-size: 30px;
       font-weight: bold;
       text-shadow: 3px 3px 0 #000;
-      padding-top: 30px;
+      padding-top: 20px;
       padding-left: 10px;
+      border-radius: 25px;
 }
 a {
   color:#ffffff;
