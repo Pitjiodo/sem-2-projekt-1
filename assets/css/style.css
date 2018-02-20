@@ -207,25 +207,31 @@ h1 {
   height: 555px;
   z-index: 1;
 }
-
+.space-description-box {
+  position: absolute;
+  left: 380px;
+  top: 41px;
+  width: 400px;
+  z-index: 3;
+}
 .mountains-description-box {
   position: absolute;
-  left: 1150px;
-  top: 91px;
+  left: 1130px;
+  top: 61px;
   width: 400px;
   z-index: 3;
 }
 .jungle-description-box {
   position: absolute;
-  left: 68px;
-  top: 54px;
+  left: 48px;
+  top: 24px;
   width: 400px;
   z-index: 3;
 }
 .race-track-description-box {
   position: absolute;
-  left: 1150px;
-  top: 72px;
+  left: 1130px;
+  top: 42px;
   width: 400px;
   z-index: 3;
 }
@@ -234,6 +240,12 @@ h2 {
   font-weight: bold;
   color: white;
   margin-bottom: 1px;
+  text-shadow: 3px 3px 0 #000;
+}
+.space-description {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
   text-shadow: 3px 3px 0 #000;
 }
 .mountains-description {
