@@ -7,13 +7,14 @@ html, body {
 .top-logo {
     width: 350px;
     height: 107.38px;
-    margin: 63.6px 0 0 67px;
+    margin: 0 0 0 67px;
     position: absolute;
+    top: 5%;
 }
 .top-logo2 {
     position: absolute;
-    right: 67px;
-    top: 80.6px;
+    left: 83%;
+    top: 5%;
 }
 
 h1 {
@@ -33,9 +34,10 @@ h1 {
 
 .intro {
     position: absolute;
-    width: 100%;
+    width: 1920px;
     height: 120%;
     background-image: url(../images/top.png);
+    background-repeat: no-repeat;
 }
 
 .intro-description {
@@ -94,33 +96,37 @@ h1 {
 
 .space {
   position: absolute;
-  width: 100%;
+  width: 1920px;
   height: 120%;
   margin-top: 1080px;
   background-image: url(../images/space.png);
+  background-repeat: no-repeat;
 }
 .mountains{
   position: absolute;
-  width: 100%;
+  width: 1920px;
   height: 120%;
   margin-top: 2160px;
   background-image: url(../images/mountains.png);
+  background-repeat: no-repeat;
 }
 
 .jungle{
   position: absolute;
-  width: 100%;
+  width: 1920px;
   height: 120%;
   margin-top: 3240px;
   background-image: url(../images/jungle.png);
+  background-repeat: no-repeat;
 }
 
 .race-track{
   position: absolute;
-  width: 100%;
+  width: 1920px;
   height: 120%;
   margin-top: 4320px;
   background-image: url(../images/race_track.png);
+  background-repeat: no-repeat;
 }
 .greybg0 {
   position: absolute;
@@ -285,7 +291,7 @@ footer {
       margin-bottom: 0%;
       margin-left: 0%;
       margin-right: 0%;
-      width:100%;
+      width:1920px;
     }
 
 .email {
@@ -478,40 +484,40 @@ footer {
 
     .space {
       position: absolute;
-      width: 100%;
+      width: 1920px;
       height: 120%;
       margin-top: 768px;
       background-image: url(../images/space.png);
-      background-size: 100% 100%;
+      background-size: 1920px 1920px;
       background-repeat: no-repeat;
     }
     .mountains{
       position: absolute;
-      width: 100%;
+      width: 1920px;
       height: 120%;
       margin-top: 1536px;
       background-image: url(../images/mountains.png);
-      background-size: 100% 100%;
+      background-size: 1920px 1920px;
       background-repeat: no-repeat;
     }
 
     .jungle{
       position: absolute;
-      width: 100%;
+      width: 1920px;
       height: 120%;
       margin-top: 2304px;
       background-image: url(../images/jungle.png);
-      background-size: 100% 100%;
+      background-size: 1920px 1920px;
       background-repeat: no-repeat;
     }
 
     .race-track{
       position: absolute;
-      width: 100%;
+      width: 1920px;
       height: 120%;
       margin-top: 3072px;
       background-image: url(../images/race_track.png);
-      background-size: 100% 100%;
+      background-size: 1920px 1920px;
       background-repeat: no-repeat;
     }
 
@@ -660,7 +666,7 @@ footer {
       margin-bottom: 0%;
       margin-left: 0%;
       margin-right: 0%;
-      width:100%;
+      width:1920px;
     }
 
     .email {
